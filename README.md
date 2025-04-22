@@ -6,7 +6,7 @@
 ---
 
 ## Overview  
-OpenSNAP is a minimal, machine‑to‑machine HTTP handshake that lets autonomous agents discover API pricing, negotiate bids, and attach payment vouchers—**independent** of any particular settlement layer. Think of it as the TCP of metered API commerce: a simple “offer‑ack‑pay‑invoke” protocol that any payment rail (blockchain, Interledger, centralized ledger) can plug into.
+OpenSNAP is a minimal, machine‑to‑machine HTTP handshake that lets autonomous agents discover API pricing, negotiate bids, and attach payment vouchers—**independent** of any particular settlement layer. Think of it as the TCP of metered API commerce: a simple “offer‑ack‑pay‑invoke” protocol that any payment rail (blockchain, Interledger, centralized ledger or Stripe) can plug into.
 
 ---
 
@@ -30,8 +30,8 @@ OpenSNAP is a minimal, machine‑to‑machine HTTP handshake that lets autonomou
 
 ```
 /
-├── server.py    # Example FastAPI server implementing OpenSNAP
-├── client.py    # Example Python client demonstrating the handshake
+├── examples/server.py    # Example FastAPI server implementing OpenSNAP
+├── examples/client.py    # Example Python client demonstrating the handshake
 └── rfc.md       # Protocol specification & message schemas
 ```
 
@@ -83,7 +83,7 @@ OpenSNAP is a minimal, machine‑to‑machine HTTP handshake that lets autonomou
 
 1. **Clone Repo**
    ```bash
-   git clone https://github.com/OpenSNAP/protocol.git
+   git clone https://github.com/cashputation/OpenSNAP.git
    cd protocol
    ```
 2. **Run Server**
