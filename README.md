@@ -102,8 +102,8 @@ OpenSNAP is a minimal, machine‑to‑machine HTTP handshake that lets autonomou
 ## Resources
 
 - **RFC**: `rfc.md` in this repo  
-- **Issues**: https://github.com/OpenSNAP/protocol/issues  
-- **Discussions**: https://github.com/OpenSNAP/protocol/discussions
+- **Issues**: https://github.com/cashputation/OpenSNAP/protocol/issues  
+- **Discussions**: https://github.com/cashputation/OpenSNAP/protocol/discussions
 
 ---
 
