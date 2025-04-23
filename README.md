@@ -1,5 +1,5 @@
 # OpenSNAP
-**Open Self‑Negotiating APIs Protocol**
+**Open Self‑Negotiating API Protocol**
 
 **Version:** 1.0 • **License:** Apache 2.0
 
